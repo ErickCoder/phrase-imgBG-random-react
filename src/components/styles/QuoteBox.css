@@ -23,7 +23,7 @@ h6{
 }
 
 .btn_quoteBox{
-    padding-bottom: 100px;
+    padding-bottom: 10px;
 } 
 
 
@@ -198,7 +198,7 @@ padding: 1rem;
 
 
 
-@media screen and (min-width:375px){
+@media screen and (min-width:350px){
     .container__cards{
         position: relative;
         top: 0;
@@ -207,4 +207,8 @@ padding: 1rem;
         margin-top: 100px;
         padding-bottom: 100px;
     }
+    .btn_quoteBox{
+       padding-bottom: 20px;
+    } 
+    
 }
