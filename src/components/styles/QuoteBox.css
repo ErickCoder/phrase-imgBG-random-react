@@ -11,7 +11,13 @@
     height: 50px;
     font-size: 20px;
     transform: background-color 3s ease in out;
+    color: #fff;
+    
 }
+
+.btn_quoteBox{
+    padding-bottom: 100px;
+} 
 .quoteBox__btn:hover{
     display: block;
     margin: 0 auto;
@@ -46,7 +52,13 @@ color: #000;
     
 }
 .card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    position: relative;
     width: 300px;
+    height: 430px;
     margin: 0px;
     padding: 0px;
     text-align: justify;
@@ -65,27 +77,72 @@ color: #000;
 .card:hover .card__img img{
     transform: scale(1.1);
 }
+
+
 .card__title{
     text-align:left ;
-    padding-top: 20px;
-    padding: 1rem;
+   margin: 0.5rem;
+
     
 }
 
 
 
 .card__img{
+
     width: 100%;
-    height: 150px;
-    border-radius: 20px;
+    height: 200px;
+    border-radius: 10%;
     overflow: hidden;
+    min-height: 1rem;
+
     
 
 }
 .card__img img{
-width: 110%;
+width: 100%;
 transition: all 300ms;
+height: 200px;
+
 }
+
+.app.bg1{
+    background-image: url(/images/bg1.jpg);
+
+
+}
+
+.app.bg2{
+    background-image: url(/images/bg2.jpg);
+
+
+}
+
+.app.bg3{
+    background-image: url(/images/bg3.jpg);
+
+
+}
+
+.app.bg4{
+    background-image: url(/images/bg4.jpg);
+
+
+}
+.app.bg5{
+    background-image: url(/images/bg5.jpg);
+
+
+}
+.app.bg6{
+    background-image: url(/images/bg6.jpg);
+
+
+}
+
+
+
+
 .card h2{
     font-size: 20px;
     font-weight: 700;
@@ -93,17 +150,22 @@ transition: all 300ms;
     color: #fff;
    
 }
+
+
 .card__text{
-    margin-top: -20px;
+    
     font-size: 15px;
     font-weight: 900;
-    letter-spacing: 0.1;
+    margin: 0px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
-    padding: 1rem;
+   padding: 0px 10px;
     
 }
-
+.card__body{
+   position: relative;
+    z-index: -1;
+}
 .footer__card{
 display: flex;
 margin-top: 10px;
