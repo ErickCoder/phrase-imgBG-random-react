@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 
-
+h1,
+h2,
+h3,
+h4,
+h6{
+    color: #000;
+}
 .quoteBox__btn{
     display: block;
     margin: 0 auto;
@@ -12,17 +18,20 @@
     font-size: 20px;
     transform: background-color 3s ease in out;
     color: #fff;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.928);
     
 }
 
 .btn_quoteBox{
     padding-bottom: 100px;
 } 
+
+
 .quoteBox__btn:hover{
     display: block;
     margin: 0 auto;
 /*     background-color: rgba(255, 255, 255, 0); */
-background-color: #00000054;
+background-color:forestgreen;
     box-shadow: 20px 20px 250px rgba(0, 0, 0, 0.73);
     border-radius: 10px;
     width: 200px;
@@ -82,6 +91,7 @@ color: #000;
 .card__title{
     text-align:left ;
    margin: 0.5rem;
+   
 
     
 }
@@ -145,12 +155,15 @@ height: 200px;
 
 .card h2{
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 900;
     margin-top: 20px;
-    color: #fff;
-   
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
-
+i{
+    font-family: 'Poppins', sans-serif; 
+}
 
 .card__text{
     
@@ -160,6 +173,7 @@ height: 200px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
    padding: 0px 10px;
+   text-align: center;
     
 }
 .card__body{
@@ -169,7 +183,8 @@ height: 200px;
 .footer__card{
 display: flex;
 margin-top: 10px;
-color: #fff;
+font-weight: 700;
+color: #000;
 justify-content: space-between;
 padding: 1rem;
 }
@@ -177,6 +192,7 @@ padding: 1rem;
 .footer__card h3{
     font-size: 15px;
     font-weight: 900;
+    font-family: 'Poppins', sans-serif;
 }
 
 

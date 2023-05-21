@@ -17,7 +17,7 @@ function App() {
   return (
     <main className={`app ${bgImg}`}>
       <section className="app__container">
-        <h1 className="title">Pura Vida</h1>
+        <h1 className="title">🌱Pura Vida🍃</h1>
 
         <QuoteBox handleChangeQuote={handleChangeQuote} phrase={quote.phrase} profession={quote.profession} date={quote.date} author={quote.author} />
 

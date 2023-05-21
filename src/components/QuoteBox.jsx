@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/QuoteBox.css";
 
+
 const QuoteBox = ({ phrase, handleChangeQuote, profession, date, author }) => {
   return (
     <section>
