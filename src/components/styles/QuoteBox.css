@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+
+.quoteBox__btn{
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 20px 20px 250px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    transform: background-color 3s ease in out;
+}
+.quoteBox__btn:hover{
+    display: block;
+    margin: 0 auto;
+/*     background-color: rgba(255, 255, 255, 0); */
+background-color: #00000054;
+    box-shadow: 20px 20px 250px rgba(0, 0, 0, 0.73);
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: #fff;
+}
+
+
+p{
+color: #000;
+}
+
+.container__cards{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.card{
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+    box-shadow: 20px 20px 250px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+/*     border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5); */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: all 300ms;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card:hover .card__img img{
+    transform: scale(1.1);
+}
+.card__title{
+    text-align:left ;
+    padding-top: 20px;
+    padding: 1rem;
+    
+}
+
+
+
+.card__img{
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+
+}
+.card__img img{
+width: 110%;
+transition: all 300ms;
+}
+.card h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #fff;
+   
+}
+.card__text{
+    margin-top: -20px;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 0.1;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem;
+    
+}
+
+.footer__card{
+display: flex;
+margin-top: 10px;
+color: #fff;
+justify-content: space-between;
+padding: 1rem;
+}
+
+.footer__card h3{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+
+
+@media screen and (min-width:375px){
+    .container__cards{
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+}
